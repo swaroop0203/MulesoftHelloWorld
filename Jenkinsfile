@@ -1,3 +1,3 @@
-ls
+ls -ltr
 whoami
 hostname
