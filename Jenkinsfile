@@ -7,7 +7,9 @@ import java.io.File;
 import java.text.*;
 import java.util.regex.*
   node("master"){
+    stage ("prepare"){
 sh "ls -ltr"
 sh "whoami"
 sh "hostname"
+  }
   }
